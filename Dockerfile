@@ -8,7 +8,7 @@ WORKDIR /app
 COPY target/shoppinglist-0.0.1-SNAPSHOT.jar app.jar
 
 # Expose Spring Boot port
-EXPOSE 8001
+EXPOSE 8008
 
 # Run the application
 ENTRYPOINT ["java", "-jar", "app.jar"]
